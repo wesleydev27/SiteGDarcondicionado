@@ -1,0 +1,22 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    border: none;
+    text-decoration: none;
+}
+
+/* PALETA DE CORES */
+:root {
+    --color1-blue: #028CFF;
+    --color2-orange: #F08D15;
+    --color3-white: #FFFFFF;
+    --color4-black: #000000;
+    --color5-light-black: #333;
+    --color6-gray: #F1F1F1;
+    --color7-green: #25d366;
+    --color8-grey2: #999;
+    --overlay-color: rgba(0, 0, 0, 0.5);
+}

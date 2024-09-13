@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS ESTILOS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS RESET-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!--MOBILE-->
+    <link rel="stylesheet" href="css/mobile.css">
+    <!--CSS ANIMATIONS-->
+    <link rel="stylesheet" href="css/animations.css">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="img/Logo GD.svg">
+    <!--FONTS Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Icones BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>GD instalações e manutenções de ar condicionado</title>
+</head>
+
+<body>
+
+    <!--TOPO-->
+    <section class="topo">
+        <p class="frase1">
+            Ar condicionado é na <strong>GD ar condicionado</strong>
+        </p>
+        <p class="frase2">
+            Faça já seu orçamento: <a
+                href="https://wa.me/5519982975926?text=Ol%C3%A1%20vim%20do%20seu%20site%20de%20ar%20condicionado%20e%20gostaria%20de%20um%20or%C3%A7amento%20!%2"><i
+                    class="bi bi-telephone-fill"></i>(19) 98297-5926</a>
+        </p>
+    </section>
+
+
+    <!-- HEADER DESKTOP-->
+    <header id="header-menu">
+
+        <!--LOGO-->
+        <div class="logo"><a href="index.html"><img src="img/Logo GD.svg" alt="Logo da GD Ar Condicionado"></a></div>
+
+        <!--BOTÃO MOBILE-->
+        <button class="mobile-menu-button" id="btn-mobile"><i class="bi bi-list"></i></button>
+
+        <!--MENU DESKTOP-->
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#installation">Instalação</a></li>
+                <li><a href="#maintenance">Manutenção</a></li>
+                <li><a href="#accordion-hygiene">Higienização</a></li>
+                <li><a href="#infrastructure">Infraestrutura</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu-overlay"></div>
+    <!--MENU MOBILE-->
+    <nav class="menu-mobile" aria-label="Menu móvel">
+        <button class="close-menu" id="close-menu"><i class="bi bi-x-lg"></i></button>
+        <ul>
+            <li><a href="#installation">Instalação</a></li>
+            <li><a href="#maintenance">Manutenção</a></li>
+            <li><a href="#accordion-hygiene">Higienização</a></li>
+            <li><a href="#infrastructure">Infraestrutura</a></li>
+        </ul>
+
+    </nav>
+
+    <!--BANNERS -->
+    <main id="banner-animation">
+
+        <div class="banners active">
+            <h2>Instalação</h2><img src="img/Banners/Banners/01 Instalação.webp" alt="Instalação" class="animation">
+            <p class="subtitle">Nossa equipe especializada garante uma instalação de ar condicionado eficiente e segura,
+                utilizando as melhores práticas do setor.</p>
+        </div>
+        <div class="banners">
+            <h2>Manutenção</h2><img src="img/Banners/Banners/02 Manutenção.webp" alt="Manutenção" class="animation">
+            <p class="subtitle">Oferecemos serviços de manutenção completos para garantir o desempenho ideal do seu ar
+                condicionado.</p>
+        </div>
+        <div class="banners">
+            <h2>Contrato de manutenção</h2><img src="img/Banners/Banners/03 ContratoManutenção.webp"
+                alt="Contrato de Manutenção" class="animation">
+            <p class="subtitle">Com nossos contratos de manutenção, você desfruta de tranquilidade e economia.</p>
+        </div>
+        <div class="banners">
+            <h2>Higienização</h2><img src="img/Banners/Banners/04 Higienização.webp" alt="Higienização"
+                class="animation">
+            <p class="subtitle">A higienização regular do seu sistema de ar condicionado é essencial para manter a
+                qualidade do ar e o bom funcionamento do equipamento.</p>
+        </div>
+
+        <div class="banners">
+            <h2>Infraestrutura</h2><img src="img/Banners/Banners/06 Infraestrutura.webp" alt="Infraestrutura"
+                class="animation">
+            <p class="subtitle">Oferecemos soluções completas em infraestrutura para suportar seus sistemas de
+                climatização e elétricos.</p>
+        </div>
+
+        <!--CONTROLES DOS BANNERS-->
+        <div class="arrow"><button id="prev"><i class="bi bi-caret-left"></i></button> <button id="next"><i
+                    class="bi bi-caret-right"></i></button></div>
+
+    </main>
+
+    <!--CONTAINER-->
+    <section class="container">
+
+        <!--SECTION INSTALLATION-->
+        <section id="installation">
+
+            <div class="section-installation">
+                <h1>Benefícios da Instalação Correta</h1>
+                <h2>A instalação correta de um ar-condicionado é essencial para otimizar seu desempenho e prolongar sua
+                    vida útil. Um sistema bem instalado garante uma distribuição uniforme do ar, promovendo um ambiente
+                    confortável e eficiente em termos de consumo de energia. Isso não apenas reduz a conta de
+                    eletricidade, mas também evita problemas como vazamentos, ruídos indesejados e falhas precoces,
+                    minimizando a necessidade de reparos frequentes e custos adicionais.</h2>
+
+            </div>
+
+            <div class="banner-installation">
+                <img src="img/Banners/FT Instalação 02 - orange.webp" alt="Instalação ">
+            </div>
+
+        </section>
+
+        <!-- SECTION ACCORDION INSTALACAO -->
+        <section id="accordion-installation">
+            <h1>Vantagens da Instalação Adequada</h1>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-battery-full accordion-icon-left"></i>
+                            Eficiência Energética</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Uma instalação adequada garante que o sistema opere de maneira eficiente, reduzindo o
+                            consumo
+                            de energia. Isso se traduz em contas de energia mais baixas e menor impacto ambiental.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-battery-half accordion-icon-left"></i>
+                            Durabilidade do Equipamento</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Com uma instalação correta, o ar-condicionado terá uma vida útil mais longa, evitando
+                            desgastes prematuros e minimizando a necessidade de reparos frequentes.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-thermometer-half accordion-icon-left"></i>
+                            Conforto Térmico</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Um sistema bem instalado proporciona uma distribuição uniforme do ar, garantindo um
+                            ambiente
+                            mais confortável e ajustado à temperatura desejada.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-shield-check accordion-icon-left"></i>
+                            Segurança Operacional</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Segurança é fundamental, e uma instalação feita por profissionais qualificados reduz o
+                            risco
+                            de falhas, vazamentos ou outros problemas que possam comprometer o sistema.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-lightning-charge accordion-icon-left"></i>
+                            Economia a Longo Prazo</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Embora a instalação inicial possa parecer um custo, ela é um investimento que se paga com
+                            o
+                            tempo, graças à eficiência energética e menor necessidade de manutenção.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-tools accordion-icon-left"></i>
+                            Suporte
+                            Técnico</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Optar por uma instalação profissional garante acesso a suporte técnico especializado, que
+                            pode solucionar problemas rapidamente e garantir a operação contínua do sistema.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION MAINTENANCE-->
+        <section id="maintenance">
+
+            <div class="banner-maintenance">
+                <img src="img/Banners/FT Manutenção 01 - border orange.webp" alt="MAINTENANCE">
+            </div>
+
+            <div class="section-maintenance">
+                <h1>Importância da Manutenção Regular</h1>
+                <h2>A manutenção regular de um ar-condicionado é crucial para garantir seu
+                    funcionamento eficiente e prolongar sua vida útil. Um sistema bem mantido evita problemas maiores,
+                    como falhas graves e necessidade de reparos custosos. Além disso, assegura que o ar-condicionado
+                    opere com eficiência máxima, proporcionando conforto e economia a longo prazo.</h2>
+
+            </div>
+
+        </section>
+
+        <!-- SECTION ACCORDION MAINTENANCE  -->
+        <section id="accordion-maintenance">
+            <h1>Importância da Manutenção Regular</h1>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-speedometer2 maintenance accordion-icon-left"></i>
+                            Otimização de Desempenho</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Uma manutenção adequada garante que o sistema funcione com desempenho máximo, evitando perdas
+                            de eficiência e problemas de operação.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-calendar-day maintenance accordion-icon-left"></i>
+                            Aumento da Vida Útil</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Com a manutenção correta, o ar-condicionado terá uma vida útil prolongada, evitando o
+                            desgaste precoce e minimizando a necessidade de substituições.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-sun maintenance accordion-icon-left"></i>
+                            Conforto Contínuo</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Manter o sistema em boas condições assegura que o ar seja distribuído uniformemente,
+                            proporcionando um ambiente sempre confortável e ajustado às suas preferências.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-shield-check accordion-icon-left"></i>
+                            Segurança Garantida</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>A manutenção regular realizada por profissionais capacitados minimiza os riscos de falhas e
+                            vazamentos, garantindo a segurança operacional do sistema.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-lightning-charge accordion-icon-left"></i>
+                            Economia Sustentável</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Embora a manutenção possa parecer um custo, ela é um investimento que se traduz em economia a
+                            longo prazo, graças à eficiência e à redução de problemas futuros..</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-tools accordion-icon-left"></i>
+                            Suporte Contínuo</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Realizar a manutenção com profissionais qualificados garante acesso a suporte contínuo,
+                            resolvendo rapidamente qualquer problema e assegurando o funcionamento ideal do sistema.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--SECTION MAINTENANCE CONTRACT -->
+        <section id="maintenance-contract">
+            <div class="section-maintenance-contract">
+                <h1>Contrato de Manutenção</h1>
+                <p class="pcontract">A Garantia de um Ar-Condicionado Sempre Eficiente</p>
+                <h2>Optar por um Contrato de Manutenção Abrangente é Garantir a Máxima Eficiência e Longevidade dos Seus
+                    Equipamentos: Com um Acordo Completo que Cobre Desde a Instalação e Manutenção Contínua até a
+                    Higienização Regular e Suporte de Infraestrutura, Você Assegura o Funcionamento Ideal e a
+                    Confiabilidade de Todos os Seus Sistemas ao Longo do Tempo.</h2>
+
+            </div>
+        </section>
+
+
+        <!--SECTION ACCORDION MAINTENANCE CONTRACT-->
+        <section id="accordion-maintenance-contract">
+
+            <div class="accordion-container">
+                <h1>Segurança e economia</h1>
+                <p class="pcontract">Descubra como um contrato de manutenção pode transformar seu sistema.</p>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-shield-check contract accordion-icon-left"></i>
+                            Segurança Garantida</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Proteja seus equipamentos contra falhas inesperadas e evite prejuízos. Com um contrato de
+                            manutenção, você assegura a tranquilidade e a confiabilidade de seus sistemas, garantindo
+                            que tudo funcione perfeitamente, o tempo todo.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-speedometer2 contract accordion-icon-left"></i>
+                            Performance Sempre no Máximo</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Não deixe seus sistemas perderem eficiência! Com um contrato de manutenção, você garante o
+                            desempenho ideal de seus equipamentos, evitando quedas de produtividade e maximizando os
+                            resultados do seu negócio.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-piggy-bank contract accordion-icon-left"></i>
+                            Economia Inteligente</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Evite custos elevados com reparos de última hora. Um contrato de manutenção regular mantém
+                            seus sistemas em perfeito estado, prevenindo problemas maiores e ajudando você a economizar
+                            no longo prazo.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-hourglass-split contract accordion-icon-left"></i>
+                            Vida Útil Prolongada</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Aumente a durabilidade dos seus equipamentos! Com um contrato de manutenção, você preserva o
+                            valor do seu investimento, garantindo que seus sistemas funcionem por muito mais tempo, sem
+                            complicações.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-emoji-smile contract accordion-icon-left"></i>
+                            Tranquilidade para seu Negócio</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Deixe os imprevistos de lado e foque no crescimento da sua empresa. Um contrato de manutenção
+                            garante que seus sistemas estejam sempre em ordem, evitando paradas inesperadas e dores de
+                            cabeça desnecessárias.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-tools accordion-icon-left"></i>
+                            Manutenção Proativa</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Antecipe problemas antes que eles ocorram. Com um contrato de manutenção, você assegura
+                            que seus equipamentos estejam sempre em ótimo estado, evitando surpresas desagradáveis e
+                            garantindo o funcionamento contínuo dos seus sistemas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--SECTION HYGIENE-->
+        <section id="hygiene">
+            <div class="section-hygiene">
+                <h1>Higienização</h1>
+                <p class="pcontract">Mantenha Seu Ambiente Saudável e Livre de Impurezas</p>
+                <h2>Optar por um Serviço de Higienização Regular é Essencial para Garantir a Qualidade do Ar e o
+                    Desempenho dos Seus Equipamentos: Com um Acordo Abrangente que Inclui a Limpeza Profunda de Filtros,
+                    Serpentinas e Dutos, Você Garante que Seu Ar-Condicionado Funcione de Forma Eficiente e Segura,
+                    Prolongando sua Vida Útil e Melhorando o Conforto em Seu Ambiente.</h2>
+
+            </div>
+        </section>
+
+        <!-- SECTION ACCORDION HYGIENE-->
+        <section id="accordion-hygiene">
+
+            <div class="accordion-container">
+                <h1>Por Que a Higienização do Ar Condicionado é Tão Importante?</h1>
+                <p class="pcontract"> Como a Limpeza Regular Garante Qualidade do Ar e Prolonga a Vida Útil do Seu
+                    Equipamento</p>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-exclamation-circle accordion-icon-left"></i>
+                            Importância da Higienização Regular</div><i
+                            class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Explicar por que a higienização periódica do ar condicionado é essencial para a saúde dos
+                            ocupantes e para a eficiência do sistema, prevenindo alergias e problemas respiratórios.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-bar-chart-steps accordion-icon-left"></i>
+                            Passo a Passo da Higienização</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Detalhar o processo de limpeza, incluindo a remoção e lavagem dos filtros, limpeza das
+                            serpentinas, e desinfecção do sistema de ventilação para garantir um ambiente livre de
+                            impurezas.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-exclamation-triangle-fill accordion-icon-left"></i>
+                            Sinais de Que Seu Ar Condicionado Precisa de Higienização</div><i
+                            class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Listar os principais indicadores de que o ar condicionado está sujo, como mau cheiro, redução
+                            na eficiência de resfriamento, aumento no consumo de energia, e ruídos estranhos.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i
+                                class="bi bi-check-circle-fill accordion-icon-left"></i>Impacto na
+                            Qualidade do
+                            Ar Interior</div><i class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Discutir como a falta de higienização pode afetar a qualidade do ar interno, acumulando
+                            poeira, mofo e bactérias, e o que isso significa para a saúde das pessoas.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-calendar-week accordion-icon-left"></i>
+                            Frequência Ideal para Higienização</div><i
+                            class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Recomendar a periodicidade ideal para a higienização do ar condicionado, dependendo do uso e
+                            do ambiente, seja residencial, comercial ou industrial.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(this)">
+                        <div class="d-flex align-items-center"><i class="bi bi-box2-heart-fill accordion-icon-left"></i>
+                            Benefícios da Higienização Profissional</div><i
+                            class="bi bi-chevron-down accordion-icon-right"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Explicar as vantagens de contratar um serviço profissional para a higienização do ar
+                            condicionado, incluindo a garantia de uma limpeza completa e o aumento da vida útil do
+                            equipamento.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--SECTION INFRASTRUCTURE -->
+        <section id="infrastructure">
+
+            <div class="banner-infrastructure">
+                <img src="img/Banners/FT Infraestrutura 03 - border blue.webp" alt="MAINTENANCE">
+            </div>
+
+            <div class="section-infrastructure">
+                <h1>Como a Infraestrutura Adequada Garante o Desempenho e a Eficiência do Seu Ar Condicionado ?</h1>
+                <h2>A infraestrutura é a base essencial para o bom funcionamento de qualquer sistema de ar condicionado.
+                    Ela abrange desde a escolha dos componentes certos até a instalação e manutenção adequadas,
+                    garantindo que o sistema opere de forma eficiente e segura. Quando bem projetada, a infraestrutura
+                    de ar condicionado não só melhora o desempenho do equipamento, mas também prolonga sua vida útil,
+                    resultando em economia de energia e menores custos operacionais.</h2>
+
+            </div>
+
+        </section>
+
+    </section>
+
+    <!--SECTION MARCAS-->
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="carousel-item"><img src="img/Marcas/1 logo-brastemp.jpg" alt="brastemp"></div>
+            <div class="carousel-item"><img src="img/Marcas/2 logo-carrier.jpg" alt="carrier"></div>
+            <div class="carousel-item"><img src="img/Marcas/3 logo-consul.jpg" alt="consul"></div>
+            <div class="carousel-item"><img src="img/Marcas/4 logo-daikin.jpg" alt="daikin"></div>
+            <div class="carousel-item"><img src="img/Marcas/5 logo-electrolux.jpg" alt="electrolux"></div>
+            <div class="carousel-item"><img src="img/Marcas/6 logo-elgin.jpg" alt="elgin"></div>
+            <div class="carousel-item"><img src="img/Marcas/7 logo-fujitsu.jpg" alt="fujitsu"></div>
+            <div class="carousel-item"><img src="img/Marcas/8 logo-gree.jpg" alt="gree"></div>
+            <div class="carousel-item"><img src="img/Marcas/9 logo-hitachi.jpg" alt="hitachi"></div>
+            <div class="carousel-item"><img src="img/Marcas/10 logo-komeco.jpg" alt="komeco"></div>
+            <div class="carousel-item"><img src="img/Marcas/11 logo-lg.jpg" alt="lg"></div>
+            <div class="carousel-item"><img src="img/Marcas/12 logo-midea.jpg" alt="midea"></div>
+            <div class="carousel-item"><img src="img/Marcas/13 logo-mitsubishi.jpg" alt="mitsubishi"></div>
+            <div class="carousel-item"><img src="img/Marcas/14 logo-panasonic.jpg" alt="panasonic"></div>
+            <div class="carousel-item"><img src="img/Marcas/15 logo-rheem.jpg" alt="rheem"></div>
+            <div class="carousel-item"><img src="img/Marcas/16 logo-samsung.jpg" alt="samsung"></div>
+            <div class="carousel-item"><img src="img/Marcas/17 logo-springer.jpg" alt="springer"></div>
+            <div class="carousel-item"><img src="img/Marcas/18 logo-trane.jpg" alt="trane"></div>
+            <div class="carousel-item"><img src="img/Marcas/19 logo-york.jpg" alt="york"></div>
+        </div>
+    </div>
+
+    <!-- SECTION WHATSAPP -->
+    <div class="message-box">Solicitar orçamento 😃</div>
+    <!-- Botão do WhatsApp -->
+    <a href="https://wa.me/5519982975926?text=Ol%C3%A1%20vim%20do%20seu%20site%20de%20ar%20condicionado%20e%20gostaria%20de%20um%20or%C3%A7amento%20!%20"
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-section">
+            <img src="img/Logo GD.svg" alt="">
+            <h3>GD ar condicionado</h3>
+            <p>Eficiência e conforto para seu ambiente</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Links Úteis</h3>
+            <ul>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Fale conosco</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contato</h3>
+            <!--<p>Email: contato@exemplo.com</p>-->
+            <p>Telefone: (19) 98297-5926</p>
+        </div>
+
+    </footer>
+
+    <div class="copyright">
+        <p>&copy; 2023 GD ar condicionado. Todos os direitos reservados.</p>
+    </div>
+
+
+    <!--SCRIPT -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+/*ANIMAÇOES DOS BANNERS*/
+@keyframes Ativado {
+    from {
+        top: 100%;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+/* ANIMAÇOES SECTIONS INSTALLATION MAINTENANCE HYGENE INFRASTRUCTURE */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*CLASSES DE ANIMACOES PARA TODAS AS SECTIONS*/
+.section-installation,
+.section-maintenance,
+.section-infrastructure {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.section-installation.visible,
+.section-maintenance.visible,
+.section-infrastructure.visible {
+    opacity: 1;
+}
+
+.section-installation h1,
+.section-installation h2,
+.section-maintenance h1,
+.section-maintenance h2,
+.section-infrastructure h1,
+.section-infrastructure h2 {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.section-installation.visible h1,
+.section-maintenance.visible h1,
+.section-infrastructure.visible h1 {
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.section-installation.visible h2,
+.section-maintenance.visible h2,
+.section-infrastructure.visible h2 {
+    animation: fadeInUp 1s ease-out 0.2s forwards;
+}
+
+.banner-installation,
+.banner-maintenance,
+.banner-infrastructure {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.banner-installation.visible,
+.banner-maintenance.visible,
+.banner-infrastructure.visible {
+    opacity: 1;
+    animation: pulse 2s ease-in-out 5;
+}
