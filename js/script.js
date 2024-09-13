@@ -87,6 +87,8 @@ function toggleAccordion(element) {
 }
 
 
+
+
 /*ANIMACOES SECTION INSTALACAO */
 document.addEventListener('DOMContentLoaded', () => {
     const section = document.querySelector('.section-installation');
