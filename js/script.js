@@ -65,7 +65,7 @@ function goToPreviousBanner() {
 
 next.addEventListener('click', goToNextBanner);
 back.addEventListener('click', goToPreviousBanner);
-setInterval(goToNextBanner, 25000);
+setInterval(goToNextBanner, 2200);
 
 
 /**ANIMA OS BLOCOS DOS ACORDEONS */
