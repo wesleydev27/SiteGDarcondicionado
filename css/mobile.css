@@ -2,6 +2,7 @@
 
     /*TOPO*/
     .topo {
+        justify-content: center;
         padding: 0;
         height: 2.5rem;
         z-index: 2;
@@ -12,19 +13,11 @@
         display: none;
     }
 
-    .frase2,
-    .frase3 {
-        display: flex;
-        font-size: 0.7rem;
-        margin: 0.1rem;
-    }
-
-
     /* HEADER */
     #header-menu {
-        top: 2.5rem;
+        top: 2.4rem;
         padding: 0 1rem;
-        height: 4rem;
+        height: 3.5rem;
     }
 
     /*LOGO*/
@@ -354,6 +347,7 @@
 
     /*TOPO*/
     .topo {
+        justify-content: center;
         padding: 0;
         height: 2.5rem;
         z-index: 2;
@@ -364,20 +358,13 @@
         display: none;
     }
 
-    .frase2,
-    .frase3 {
-        display: flex;
-        font-size: 0.8rem;
-        margin: 0.2rem;
-    }
-
-
     /* HEADER */
     #header-menu {
-        top: 2.5rem;
+        top: 2.4rem;
         padding: 0 1rem;
-        height: 4rem;
+        height: 3.5rem;
     }
+
 
     /*LOGO*/
     .logo img {
@@ -710,35 +697,24 @@
 /*TABLETS MENORES */
 @media (min-width: 481px) and (max-width: 768px) {
 
-    /*TOPO DO SITE*/
+    /*TOPO*/
     .topo {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        padding: 0 1rem;
-        height: 2.6rem;
+        justify-content: center;
+        padding: 0;
+        height: 2.5rem;
         z-index: 2;
+
     }
 
     .frase1 {
         display: none;
     }
 
-    .frase2,
-    .frase1,
-    .frase3 {
-        display: flex;
-        font-size: 0.9rem;
-        margin: 0.3rem;
-    }
-
-
     /* HEADER */
     #header-menu {
-        top: 2.5rem;
+        top: 2.4rem;
         padding: 0 1rem;
-        height: 4rem;
+        height: 3.5rem;
     }
 
     /*LOGO*/
@@ -1082,24 +1058,21 @@
 
     /*TOPO DO SITE*/
     .topo {
-        background-color: var(--color2-orange);
-        display: flex;
         justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        width: 100%;
-        padding: 0 1rem;
-        height: 2.6rem;
+        padding: 0 1rem 0 0rem;
+        height: 2.5rem;
         z-index: 2;
     }
 
 
     /* HEADER */
     #header-menu {
-        top: 2.5rem;
+        top: 2.4rem;
         padding: 0 1rem;
         height: 4rem;
     }
+
+
 
     /*LOGO*/
     .logo img {
@@ -1441,19 +1414,15 @@
 
     /*TOPO DO SITE*/
     .topo {
-        display: flex;
         justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        padding: 0 1rem;
-        height: 2.6rem;
+        padding: 0 1rem 0 0rem;
+        height: 2.5rem;
         z-index: 2;
     }
 
-
     /* HEADER */
     #header-menu {
-        top: 2.5rem;
+        top: 2.4rem;
         padding: 0 1rem;
         height: 4rem;
     }
