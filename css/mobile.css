@@ -1,13 +1,28 @@
 @media (max-width: 320px) {
 
-    /*ESCONDE O TOPO*/
+    /*TOPO*/
     .topo {
+        padding: 0;
+        height: 2.5rem;
+        z-index: 2;
+
+    }
+
+    .frase1 {
         display: none;
     }
 
+    .frase2,
+    .frase3 {
+        display: flex;
+        font-size: 0.7rem;
+        margin: 0.1rem;
+    }
+
+
     /* HEADER */
     #header-menu {
-        top: 0;
+        top: 2.5rem;
         padding: 0 1rem;
         height: 4rem;
     }
@@ -337,14 +352,29 @@
 
 @media (min-width: 321px) and (max-width: 480px) {
 
-    /*ESCONDE O TOPO*/
+    /*TOPO*/
     .topo {
+        padding: 0;
+        height: 2.5rem;
+        z-index: 2;
+
+    }
+
+    .frase1 {
         display: none;
     }
 
+    .frase2,
+    .frase3 {
+        display: flex;
+        font-size: 0.8rem;
+        margin: 0.2rem;
+    }
+
+
     /* HEADER */
     #header-menu {
-        top: 0;
+        top: 2.5rem;
         padding: 0 1rem;
         height: 4rem;
     }
@@ -680,16 +710,35 @@
 /*TABLETS MENORES */
 @media (min-width: 481px) and (max-width: 768px) {
 
-    /*ESCONDE O TOPO*/
+    /*TOPO DO SITE*/
     .topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        padding: 0 1rem;
+        height: 2.6rem;
+        z-index: 2;
+    }
+
+    .frase1 {
         display: none;
     }
 
+    .frase2,
+    .frase1,
+    .frase3 {
+        display: flex;
+        font-size: 0.9rem;
+        margin: 0.3rem;
+    }
+
+
     /* HEADER */
     #header-menu {
-        top: 0;
+        top: 2.5rem;
         padding: 0 1rem;
-        height: 6rem;
+        height: 4rem;
     }
 
     /*LOGO*/
@@ -1031,16 +1080,25 @@
 /*TABLETS MAIORES */
 @media (min-width: 769px) and (max-width: 884px) {
 
-    /*ESCONDE O TOPO*/
+    /*TOPO DO SITE*/
     .topo {
-        display: none;
+        background-color: var(--color2-orange);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        padding: 0 1rem;
+        height: 2.6rem;
+        z-index: 2;
     }
+
 
     /* HEADER */
     #header-menu {
-        top: 0;
+        top: 2.5rem;
         padding: 0 1rem;
-        height: 6rem;
+        height: 4rem;
     }
 
     /*LOGO*/
@@ -1381,11 +1439,23 @@
 /*NOTEBOOKS */
 @media (min-width: 885px) and (max-width: 1230px) {
 
+    /*TOPO DO SITE*/
+    .topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        padding: 0 1rem;
+        height: 2.6rem;
+        z-index: 2;
+    }
+
+
     /* HEADER */
     #header-menu {
-        top: 0;
+        top: 2.5rem;
         padding: 0 1rem;
-        height: 6rem;
+        height: 4rem;
     }
 
     /*LOGO*/
@@ -1395,24 +1465,15 @@
     }
 
 
-    /* MENU DE TELA DE DESKTOP */
-    .menu-desktop {
-        display: none;
-    }
 
     /*BOTÃO MENU MOBILE*/
     .mobile-menu-button {
-        display: block;
-        z-index: 1111;
-        position: absolute;
-        right: 1rem;
-        font-size: 2.5rem;
-        color: var(--color2-orange);
+        display: none;
     }
 
     /*MENU MOBILE*/
     .menu-mobile {
-        display: block;
+        display: none;
     }
 
 
