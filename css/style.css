@@ -44,6 +44,7 @@ html::before {
     padding: 0 10rem;
     height: 2.6rem;
     z-index: 2;
+    top:0;
 }
 
 .frase1,
@@ -360,22 +361,16 @@ section {
 }
 
 
-/*SECTIONS*/
-#installation,
-#maintenance,
-#maintenance-contract,
-#hygiene,
-#infrastructure {
+/*SECTION INSTALLATION*/
+#installation {
     display: flex;
     justify-content: space-between;
-    padding: 3rem 10rem;
+    padding: 2rem 10rem;
     margin: 7rem 0 7rem 0;
 
 }
 
-.section-installation,
-.section-maintenance,
-.section-infrastructure {
+.section-installation {
     flex: 1;
     margin-right: 2rem;
     opacity: 0;
@@ -975,7 +970,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 10rem;
 }
 
 .footer-section img {
